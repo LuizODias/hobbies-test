@@ -1,0 +1,133 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "REST API",
+    "description": ""
+  },
+  "host": "localhost:3000",
+  "basePath": "/",
+  "tags": [],
+  "schemes": [
+    "http"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/test": {
+      "get": {
+        "tags": [],
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
+    "/create-user": {
+      "post": {
+        "tags": [],
+        "description": "Create User",
+        "parameters": [],
+        "responses": {}
+      }
+    },
+    "/read-users/{id}": {
+      "get": {
+        "tags": [],
+        "description": "Read User",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {}
+      }
+    },
+    "/update-user/{id}": {
+      "put": {
+        "tags": [],
+        "description": "Update User",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {}
+      }
+    },
+    "/delete-user/{id}": {
+      "delete": {
+        "tags": [],
+        "description": "Delete User",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {}
+      }
+    },
+    "/create-hobbie": {
+      "post": {
+        "tags": [],
+        "description": "Create Hobbie",
+        "parameters": [],
+        "responses": {}
+      }
+    },
+    "/read-hobbies/{id}": {
+      "get": {
+        "tags": [],
+        "description": "Read Hobbie",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {}
+      }
+    },
+    "/update-hobbie/{id}": {
+      "put": {
+        "tags": [],
+        "description": "Update Hobbie",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {}
+      }
+    },
+    "/delete-hobbie/{id}": {
+      "delete": {
+        "tags": [],
+        "description": "Delete Hobbie",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {}
+      }
+    }
+  },
+  "definitions": {}
+}
